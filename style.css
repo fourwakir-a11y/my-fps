@@ -35,6 +35,9 @@ canvas{
 
 #hud{
     display:none;
+    position:absolute;
+    inset:0;
+    pointer-events:none;
 }
 
 #crosshair{
