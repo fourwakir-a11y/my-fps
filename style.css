@@ -5,9 +5,7 @@ body{
   background:black;
 }
 
-canvas{
-  display:block;
-}
+canvas{ display:block; }
 
 #menu{
   position:absolute;
@@ -22,28 +20,19 @@ canvas{
   z-index:10;
 }
 
-#menu h1{
-  font-size:60px;
-  margin-bottom:20px;
-}
-
 #startBtn{
-  font-size:22px;
   padding:12px 30px;
-  cursor:pointer;
+  font-size:20px;
 }
 
-#hud{
-  display:none;
-  color:white;
-}
+#hud{ display:none; color:white; }
 
 #crosshair{
   position:absolute;
   left:50%;
   top:50%;
   transform:translate(-50%,-50%);
-  font-size:28px;
+  font-size:26px;
   pointer-events:none;
 }
 
@@ -57,4 +46,15 @@ canvas{
   position:absolute;
   top:50px;
   left:20px;
+}
+
+#minimap{
+  position:absolute;
+  right:20px;
+  bottom:20px;
+  width:160px;
+  height:160px;
+  border:2px solid white;
+  background:rgba(0,0,0,0.4);
+  display:none;
 }
