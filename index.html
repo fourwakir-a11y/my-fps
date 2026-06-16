@@ -8,15 +8,19 @@
 
 <div id="menu">
   <h1>OPERATION BLACKOUT</h1>
-  <button onclick="startGame()">START CAMPAIGN</button>
+  <button id="startBtn">START CAMPAIGN</button>
 </div>
 
-<div id="game" style="display:none;">
-  <div id="crosshair">+</div>
-
-  <div id="story">
-    Mission 1: Reach the extraction point.
+<div id="hud">
+  <div id="objective">
+    Objective: Eliminate the enemy.
   </div>
+
+  <div id="health">
+    Health: 100
+  </div>
+
+  <div id="crosshair">+</div>
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
