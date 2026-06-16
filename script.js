@@ -9,7 +9,10 @@ let pitch = 0;
 
 const keys = {};
 
-document.getElementById("startBtn").onclick = startGame;
+window.onload = () => {
+    document.getElementById("startBtn")
+        .addEventListener("click", startGame);
+};
 
 function startGame(){
 
